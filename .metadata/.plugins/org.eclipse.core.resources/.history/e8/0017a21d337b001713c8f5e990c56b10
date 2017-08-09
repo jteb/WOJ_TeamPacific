@@ -1,0 +1,21 @@
+
+public class Game {
+
+	String questionsFilepath;
+	int numPlayers;
+	Player currPlayer;
+	
+
+	private int getNumPlayers() {
+		
+		// driver
+		return 1;
+	}
+	
+	private Player createPlayer(){
+		
+		// driver
+		return 0;
+	}
+	
+}

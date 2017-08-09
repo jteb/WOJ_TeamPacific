@@ -1,0 +1,11 @@
+
+public class Jeopardy {
+
+	int valueMultiplier;
+	int seconds;
+	int questionsValue;
+	
+	void setTextbox(){
+		
+	}
+}

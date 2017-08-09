@@ -1,0 +1,9 @@
+
+public class Wheel {
+
+	int remainingSpins;
+	String[] wheelCategories;
+	int spinSpeed;
+	
+	setColor();
+}

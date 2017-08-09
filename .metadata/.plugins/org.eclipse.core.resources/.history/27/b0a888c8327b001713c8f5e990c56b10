@@ -1,0 +1,11 @@
+
+public class Game {
+
+	String questionsFilepath;
+	int numPlayers;
+	Player currPlayer;
+	
+
+	private void getNumPlayers();
+	
+}

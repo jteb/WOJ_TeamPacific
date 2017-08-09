@@ -1,0 +1,8 @@
+
+public class Wheel {
+
+	int remainingSpins;
+	String[] wheelCategories;
+	
+	
+}

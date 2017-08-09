@@ -1,0 +1,7 @@
+
+public class Jeopardy {
+
+	int valueMultiplier;
+	int seconds;
+	
+}

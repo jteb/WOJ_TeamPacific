@@ -1,0 +1,42 @@
+
+public class Jeopardy {
+
+	int valueMultiplier;
+	int seconds;
+	int questionsValue;
+	Category[] boardCategories;
+	
+	Jeopardy(int valueMultiplier) {
+		this.valueMultiplier = valueMultiplier;
+		
+	}
+	
+	void setTextbox(){
+		
+	}
+	
+	void setBackgroundColor(){
+		
+	}
+	
+	void setKeyboardListener(){
+		
+	}
+	
+	private void loadQuestions(){
+		
+	}
+	
+	public String[] getCategories(){
+		
+		//driver
+		String[] newString = {"category1","category2","category3","category4","category5","category6"};
+		return newString; 	
+	}
+
+	public String[] getQuestionsFromCategory(String inCategory) {
+		
+		String[] newString = {"question1","question2","question3","question4","queston5","question6"};
+		return newString;
+	}
+}

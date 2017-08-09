@@ -1,0 +1,16 @@
+
+public class Jeopardy {
+
+	int valueMultiplier;
+	int seconds;
+	int questionsValue;
+	Category[] boardCategories;
+	
+	Jeopardy() {
+		
+	}
+	
+	void setTextbox(){
+		
+	}
+}

@@ -1,0 +1,8 @@
+
+public class Jeopardy {{
+	
+	Category[6] = boardCategories;
+	int questionsValue;
+	int valueMultiplier;
+
+}}

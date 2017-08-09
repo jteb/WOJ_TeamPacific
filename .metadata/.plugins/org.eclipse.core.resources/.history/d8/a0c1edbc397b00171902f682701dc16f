@@ -1,0 +1,41 @@
+
+public class Wheel {
+
+	int remainingSpins;
+	String[] wheelCategories;
+	int spinSpeed;
+	
+	
+	Wheel(String[] wheelCategories, int numSpins) {
+		this.remainingSpins = numSpins;
+		this.wheelCategories = wheelCategories;
+		this.spinSpeed = 0;
+	}
+	
+	String setColor() {
+		return "blue";
+	}
+	
+	String setBackground() {
+		
+		return "black";
+	}
+	
+	void setKeyboardListener() {
+		
+	}
+	
+	public void reduceSpings() {
+		
+		remainingSpins -=1;
+	}
+	
+	public void spinWheel(){
+		
+	}
+	
+	public void setWheelCategories(String[] wheelCategories) {
+		this.wheelCategories = wheelCategories;
+	}
+	
+}

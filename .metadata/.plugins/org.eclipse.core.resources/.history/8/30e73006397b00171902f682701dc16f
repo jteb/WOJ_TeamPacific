@@ -1,0 +1,23 @@
+
+public class Wheel {
+
+	int remainingSpins;
+	String[] wheelCategories;
+	int spinSpeed;
+	
+	String setColor() {
+		return "blue";
+	}
+	
+	String setBackground() {
+		
+		return "black";
+	}
+	
+	void setKeyboardListener() {
+		
+	}
+	
+	
+	
+}
