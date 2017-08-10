@@ -1,0 +1,10 @@
+
+public class main {
+
+int main(){
+	String[] cateogryString = {"category 1", "category2","category3","category4","category5","cateogry6"};
+	Wheel a = new Wheel(categoryString,1);
+	
+	return 0;
+}
+}

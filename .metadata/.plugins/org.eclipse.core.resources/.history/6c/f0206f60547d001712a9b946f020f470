@@ -1,0 +1,10 @@
+
+public class main {
+
+int main(){
+	
+	Wheel a = new Wheel(["category 1", "category2","category3","category4","category5","cateogry6"]);
+	
+	return 0;
+}
+}

@@ -1,9 +1,11 @@
+import java.util.Random;
+
 
 public class Wheel {
 
 	int remainingSpins;
 	String[] wheelCategories;
-	int spinSpeed;
+	int spinSpeed; // why do we need spinspeed?
 	
 	
 	Wheel(String[] wheelCategories, int numSpins) {
@@ -13,26 +15,28 @@ public class Wheel {
 	}
 	
 	String setColor() {
+		// shouldn't this be in the GUI class?
 		return "blue";
 	}
 	
 	String setBackground() {
-		
+		// shouldn't  this be in the GUI class?
 		return "black";
 	}
 	
 	void setKeyboardListener() {
-		
+		// do we need this function?  
 	}
 	
-	public void reduceSpings() {
+	public void reduceSpins() {
 		
 		this.remainingSpins -=1;
 	}
 	
 	public String spinWheel(){
-	
-		return "Category";
+		int randomCatNum = (int)(Math.random() * (this.wheelCategories.length));
+		this.reduceSpins();
+		return this.wheelCategories[randomCatNum];
 	}
 	
 	public void setWheelCategories(String[] wheelCategories) {

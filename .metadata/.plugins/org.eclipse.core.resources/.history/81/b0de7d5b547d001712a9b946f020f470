@@ -1,0 +1,10 @@
+
+public class main {
+
+int main(){
+	
+	Wheel a = new Wheel(null, 0);
+	
+	return 0;
+}
+}

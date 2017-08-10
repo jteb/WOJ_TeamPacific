@@ -1,0 +1,45 @@
+import java.util.Random;
+
+
+public class Wheel {
+
+	int remainingSpins;
+	String[] wheelCategories;
+	int spinSpeed;
+	
+	
+	Wheel(String[] wheelCategories, int numSpins) {
+		this.remainingSpins = numSpins;
+		this.wheelCategories = wheelCategories;
+		this.spinSpeed = 0;
+	}
+	
+	String setColor() {
+		return "blue";
+	}
+	
+	String setBackground() {
+		
+		return "black";
+	}
+	
+	void setKeyboardListener() {
+		// do we need this function?  
+	}
+	
+	public void reduceSpings() {
+		
+		this.remainingSpins -=1;
+	}
+	
+	public String spinWheel(){
+		int randomCatNum = 1 + (int)(Math.random() * (this.wheelCategories.length - 1 ) + 1);
+		return this.wheelCategories[randomCatNum];
+		return "Category";
+	}
+	
+	public void setWheelCategories(String[] wheelCategories) {
+		this.wheelCategories = wheelCategories;
+	}
+	
+}

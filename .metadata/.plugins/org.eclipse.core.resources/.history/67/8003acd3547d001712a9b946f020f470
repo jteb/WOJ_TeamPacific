@@ -1,0 +1,11 @@
+
+public class main {
+
+int main(){
+	String[] cateogryString = {"category 1", "category2","category3","category4","category5","cateogry6"};
+	Wheel a = new Wheel(cateogryString,1);
+	System.out.println(a.remainingSpins());
+	
+	return 0;
+}
+}

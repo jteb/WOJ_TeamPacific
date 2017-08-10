@@ -1,0 +1,16 @@
+
+public class main {
+	
+
+public static void main(){
+	String[] cateogryString = {"category 1", "category2","category3","category4","category5","cateogry6"};
+	Wheel a = new Wheel(cateogryString,1);
+	System.out.println(a.remainingSpins);
+	System.out.println(a.spinWheel());
+	System.out.println(a.wheelCategories);
+	
+}
+
+}
+
+main();
